@@ -1,0 +1,23 @@
+[build-system]
+requires = [ "setuptools>=61.0" ]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "nature"
+version = "0.0.1"
+authors = [
+    { name="Henrique Hott", email="cs.henriquemchott@gmail.com" },
+]
+description = "A package for implementing bio-inspired algorithms."
+readme = "README.md"
+requires-python = ">=3.11"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: MIT License",
+    "Operating System :: OS Independent",
+]
+dependencies = [ "numpy==1.26.4" ]
+
+[project.urls]
+Homepage = "https://github.com/hott-henrique/nature"
+Issues = "https://github.com/hott-henrique/nature/issues"
