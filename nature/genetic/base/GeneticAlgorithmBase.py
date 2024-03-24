@@ -2,12 +2,12 @@ import typing as t
 
 import numpy as np
 
-from params.InputBase import InputBase
-from genetic.base import SelectionStrategyBase
-from genetic.base import CrossoverStrategyBase
-from genetic.base import MutationStrategyBase
-from genetic.base import ElitismStrategyBase
-from genetic.base.GeneticAlgorithmLoggerBase import GeneticAlgorithmLoggerBase
+from nature.params.InputBase import InputBase
+from nature.genetic.base import SelectionStrategyBase
+from nature.genetic.base import CrossoverStrategyBase
+from nature.genetic.base import MutationStrategyBase
+from nature.genetic.base import ElitismStrategyBase
+from nature.genetic.base.GeneticAlgorithmLoggerBase import GeneticAlgorithmLoggerBase
 
 
 class GeneticAlgorithmBase(object):
