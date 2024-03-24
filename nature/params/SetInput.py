@@ -2,7 +2,7 @@ import typing as t
 
 import numpy as np
 
-from params.InputBase import InputBase
+from nature.params.InputBase import InputBase
 
 
 class SetInput(InputBase):
