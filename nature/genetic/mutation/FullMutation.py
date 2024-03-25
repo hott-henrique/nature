@@ -1,7 +1,7 @@
 import numpy as np
 
-from genetic.base import MutationStrategyBase
-from params import InputBase
+from nature.genetic.base import MutationStrategyBase
+from nature.params import InputBase
 
 
 class FullMutation(MutationStrategyBase):
