@@ -1,5 +1,5 @@
-from genetic.elitism.SimpleElitism import SimpleElitism
-from genetic.elitism.VoidElitism import VoidElitism
+from nature.genetic.elitism.SimpleElitism import SimpleElitism
+from nature.genetic.elitism.VoidElitism import VoidElitism
 
 
 __all__ = [

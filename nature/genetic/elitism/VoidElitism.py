@@ -1,6 +1,6 @@
 import numpy as np
 
-from genetic.base import ElitismStrategyBase
+from nature.genetic.base import ElitismStrategyBase
 
 
 class VoidElitism(ElitismStrategyBase):

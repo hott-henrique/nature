@@ -1,6 +1,6 @@
-from genetic.crossover.PointCrossover import PointCrossover
-from genetic.crossover.BLXAlpha import BLXAlpha
-from genetic.crossover.BLXAlphaBeta import BLXAlphaBeta
+from nature.genetic.crossover.PointCrossover import PointCrossover
+from nature.genetic.crossover.BLXAlpha import BLXAlpha
+from nature.genetic.crossover.BLXAlphaBeta import BLXAlphaBeta
 
 
 __all__ = [

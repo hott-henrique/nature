@@ -1,6 +1,6 @@
 import numpy as np
 
-from genetic.base import SelectionStrategyBase
+from nature.genetic.base import SelectionStrategyBase
 
 
 class TournamentSelection(SelectionStrategyBase):

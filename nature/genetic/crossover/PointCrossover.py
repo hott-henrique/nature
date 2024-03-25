@@ -1,6 +1,6 @@
 import numpy as np
 
-from genetic.base import CrossoverStrategyBase
+from nature.genetic.base import CrossoverStrategyBase
 
 
 class PointCrossover(CrossoverStrategyBase):

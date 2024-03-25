@@ -1,6 +1,6 @@
-from genetic.selection.RandomSelection import RandomSelection
-from genetic.selection.TournamentSelection import TournamentSelection
-from genetic.selection.RouletteSelection import RouletteSelection
+from nature.genetic.selection.RandomSelection import RandomSelection
+from nature.genetic.selection.TournamentSelection import TournamentSelection
+from nature.genetic.selection.RouletteSelection import RouletteSelection
 
 
 __all__ = [
