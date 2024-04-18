@@ -11,6 +11,8 @@ class TournamentSelection(SelectionStrategyBase):
     def operate(self, population: np.ndarray, fitness: np.ndarray) -> tuple[np.ndarray, np.ndarray]:
         possibles = np.array(range(len(population)))
 
+        fitness = fitness + 1
+
         new_population = list()
         new_population_fitness = list()
 
